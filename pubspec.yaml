@@ -11,10 +11,11 @@ dependencies:
   flutter:
     sdk: flutter
 
+  easy_localization: ^3.0.3
+
   cupertino_icons: ^1.0.2
-  flutter_localizations:
-    sdk: flutter
-  intl: ^0.18.1
+  font_awesome_flutter: ^10.6.0
+
 
 dev_dependencies:
   flutter_test:
@@ -23,8 +24,6 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
-
   uses-material-design: true
-  
-flutter_intl:
-  enabled: true
+  assets:
+    - assets/l10n/
