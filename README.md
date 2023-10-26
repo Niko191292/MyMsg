@@ -2,6 +2,8 @@
 
 MyMsg is an upcoming user-friendly and secure messaging app that will be built with Flutter. Stay tuned for an app that will allow you to stay connected with your friends and family while enjoying the privacy protection of end-to-end encryption.
 
+The main question here is, how far can chatGPT go with my help ! :)
+
 ## Features (Planned)
 
 - **Real-time Messaging:** Send and receive messages in real-time.
@@ -11,6 +13,13 @@ MyMsg is an upcoming user-friendly and secure messaging app that will be built w
 - **Media Sharing:** Easily share images, videos, and files.
 - **User Profiles:** Customize your profile and add a profile picture.
 
+## Next Steps (Planned)
+
+- **Import Routes:** Pick a lib and add routes with the first screen
+- **Plan the first screen:** Maybe plan a starting screen with logo and loadging and design landing screen
+- **Adjust Icon:** Need a better startup icon and a default icon set
+- **Write l10n:** l10n is working under assets/l10n use it and create the entries
+
 ## Getting Started
 
 Follow these steps to set up and run MyMsg to get started with this project:
@@ -19,6 +28,24 @@ Follow these steps to set up and run MyMsg to get started with this project:
 
 - [Flutter](https://flutter.dev/docs/get-started/install) installed on your computer.
 - A code editor (e.g., Android Studio, Visual Studio Code).
+
+## Creating commands
+
+To set up and customize the app, you need to run the following commands:
+
+Launch icon generation, check pubspec
+
+```dart
+flutter pub run flutter_launcher_icons
+```
+
+generate l10n from files, after this you can use localKeys.var.tr()
+
+```dart
+flutter pub run easy_localization:generate -S assets/l10n -f keys -O lib/l10n -o locale_keys.g.dart
+```
+
+flutter pub run easy_localization:generate -S assets/l10n -f keys -O lib/l10n -o locale_keys.g.dart
 
 ## Installation and Usage (Planned)
 
