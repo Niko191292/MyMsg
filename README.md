@@ -19,6 +19,12 @@ The main question here is, how far can chatGPT go with my help ! :)
 - **Plan the first screen:** Maybe plan a starting screen with logo and loadging and design landing screen
 - **Adjust Icon:** Need a better startup icon and a default icon set
 - **Write l10n:** l10n is working under assets/l10n use it and create the entries
+  
+## Decisions
+
+- **Splash Screen:** Use Flutter naitive splash
+- **Supported Platforms:** Android, iOS, Web
+- **Packages to use:** easy_localization, flutter_native_splash, flutter_launcher_icons
 
 ## Getting Started
 
